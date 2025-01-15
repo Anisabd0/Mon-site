@@ -1,7 +1,6 @@
 const toggleButton = document.getElementById('dark-mode-on');
 const body = document.body;
 
-// Vérifiez si un thème est déjà enregistré dans localStorage
 if (localStorage.getItem('dark-mode') === 'enabled') {
     body.classList.add('dark-mode');
     toggleButton.textContent = 'Désactiver le mode sombre';
